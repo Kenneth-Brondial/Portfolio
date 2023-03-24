@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ken's Portfolio</title>
+    <!-- CSS's Links -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="#" class="logo">KEN</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+
+      <!-- Menu -->
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#pl" onclick="toggleMenu();">Techstack</a></li>
+        <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <img src="images/moon.png" id="icon" />
+      </ul>
+    </nav>
+    <!-- Main Text and Image -->
+    <section id="home">
+      <div class="home-text">
+        <h1>
+          Ey ey, I'm <br />
+          <span>Kenneth</span> a <br />
+          Web Developer
+          <!-- Button -->
+          <a href="#contact">Contact Me</a>
+        </h1>
+      </div>
+      <!-- Home Image -->
+      <div class="home-">
+        <img src="images/profile.png" alt="" />
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+      <!-- Heading -->
+      <div class="heading">
+        <h2>About</h2>
+        <p>My Introduction</p>
+      </div>
+      <!-- About Content -->
+      <div class="about-content">
+        <div class="about-img">
+          <img src="images/about.png" alt="" />
+        </div>
+        <div class="about-text">
+          <h1>I'm Kenneth Brondial</h1>
+          <p>
+            I'm currently a fourth-year student majoring in Bachelor of Science
+            in Computer Science at the Technological University of the
+            Philippines. To know more about me you can download my resume below.
+          </p>
+          <!-- Button -->
+          <a href="/files/Resume.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+    <!-- pl -->
+    <section id="pl">
+      <!-- heading -->
+      <div class="heading">
+        <h2>Programming Languages</h2>
+        <p>
+          The following are the programming languages that I'm knowledgeable,
+        </p>
+      </div>
+      <div class="pl-content">
+        <div class="box">
+          <!-- Box -->
+          <img src="images/c.png" alt="" />
+          <h1>C</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+            corrupti repellendus quisquam consectetur ratione adipisci.
+          </p>
+        </div>
+        <div class="box">
+          <!-- Box -->
+          <img src="images/c2.png" alt="" />
+          <h1>C++</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+            corrupti repellendus quisquam consectetur ratione adipisci.
+          </p>
+        </div>
+        <div class="box">
+          <!-- Box -->
+          <img src="images/python.png" alt="" />
+          <h1>Python</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+            corrupti repellendus quisquam consectetur ratione adipisci.
+          </p>
+        </div>
+        <div class="box">
+          <!-- Box -->
+          <img src="images/html.png" alt="" />
+          <h1>HTML Projects</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+            corrupti repellendus quisquam consectetur ratione adipisci.
+          </p>
+        </div>
+        <div class="box">
+          <!-- Box -->
+          <img src="images/css.png" alt="" />
+          <h1>CSS</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+            corrupti repellendus quisquam consectetur ratione adipisci.
+          </p>
+        </div>
+        <div class="box">
+          <!-- Box -->
+          <img src="images/php.png" alt="" />
+          <h1>PHP</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+            corrupti repellendus quisquam consectetur ratione adipisci.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section -->
+    <section id="project">
+      <div class="heading">
+        <h2>Project</h2>
+        <p>This are some of my project,</p>
+      </div>
+      <div class="project-content">
+        <div class="project-text">
+          <h1>THIRD EYE - APPLICATION FOR BLIND AND VISUALLY IMPAIRED</h1>
+          <p>
+            The proponents, created applications for visually impaired people
+            who are having a hard time communicating and doing tasks. This
+            application named Third-Eye which can be run through android
+            smartphone. It is user-friendly for both visually impaired and
+            assistant.
+          </p>
+          <a href="/files/thirdeye.pdf" download>Learn more -></a>
+        </div>
+        <div class="project-img">
+          <img src="images/thirdeye.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="heading color">
+        <h2>Contact</h2>
+        <p>Leave a message and I will reply to you ASAP,</p>
+      </div>
+      <div class="contact-content">
+        <div class="app">
+          <h1>Connect With Me <br />Through my Social Media</h1>
+          <a href="https://www.facebook.com/knnthng" target="_blank"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="https://twitter.com/kentheeee" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/kentheeee/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <div class="contact-form">
+          <form action="">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Your E-mail" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message Here..."
+            ></textarea>
+            <input type="button" value="Send" class="contact-button" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&#169; Kenneth Brondial, All Rights Reserved</p>
+    </div>
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link to JS -->
+    <script src="/main.js"></script>
+  </body>
+</html>
